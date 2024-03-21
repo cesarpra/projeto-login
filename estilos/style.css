@@ -37,14 +37,17 @@ section#login{
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+
+    transition: width .3s, higth .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
     display: block;
-    background: #5f2c82 url(../imagens/pexels-bruno-thethe-2747596.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/pexels-berk-ozdemir-3779823.jpg) no-repeat;
     background-size: cover;
     background-position: bottom center;
-    height: 250px;
+    height: 200px;
 }
 
 section#login > div#formulario{
